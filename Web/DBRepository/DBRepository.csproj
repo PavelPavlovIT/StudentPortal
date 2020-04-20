@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200412075120_modifyStudent.cs" />
+    <Compile Remove="Migrations\20200412075120_modifyStudent.Designer.cs" />
+    <Compile Remove="Migrations\20200412120845_addTableUserStudents.cs" />
+    <Compile Remove="Migrations\20200412120845_addTableUserStudents.Designer.cs" />
+    <Compile Remove="Migrations\20200412122411_addUserStudents.cs" />
+    <Compile Remove="Migrations\20200412122411_addUserStudents.Designer.cs" />
+    <Compile Remove="Migrations\20200412133214_addUserStudents.cs" />
+    <Compile Remove="Migrations\20200412133214_addUserStudents.Designer.cs" />
+    <Compile Remove="Migrations\20200412135003_addUserStudents.cs" />
+    <Compile Remove="Migrations\20200412135003_addUserStudents.Designer.cs" />
+    <Compile Remove="Migrations\20200412140357_addUserStudents.cs" />
+    <Compile Remove="Migrations\20200412140357_addUserStudents.Designer.cs" />
+    <Compile Remove="Migrations\20200412141250_addUserStudents.cs" />
+    <Compile Remove="Migrations\20200412141250_addUserStudents.Designer.cs" />
+    <Compile Remove="Migrations\20200415062133_updateGroup1.cs" />
+    <Compile Remove="Migrations\20200415062133_updateGroup1.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.RazorPages" Version="2.2.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
